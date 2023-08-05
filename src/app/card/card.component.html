@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+VjRmFxJmD01sw1TkF8BPLvIbIbbVYUew+OrCXaRkfjW2"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body style="overflow: hidden; background-color: rgb(228, 226, 226);padding: 25px;">
+   
+    <div class="container mt-5" style=" background-color: aliceblue; border-radius: 10px; position: relative; top: -40px;">
+      <div style="background-color: red;color: antiquewhite;position: relative;width: 97%;bottom: 30px;padding: 10px; border-radius: 5px; ">
+        <span>Notification</span>
+        <p>Handcrafted by our friend<strong> Robert Mcintosh</strong>. Please checkout the<strong> full documentation</strong></p>
+      </div>
+      <div style="position: relative;top: 20px;">
+        <mat-grid-list cols="2" rowHeight="2:1" gutterSize="40px" >
+          <div style="margin-top: 0px;">
+            <mat-grid-tile rowspan="3" 
+              ><!-- First Grid Tile -->
+              <h2  style="position: absolute;top: -6px;left: 50px; font-family: sans-serif;">Notification Style</h2>
+              <div style="height: 110%; width: 90% ; ">
+                <!-- Bootstrap Card Grid -->
+                <div
+                  class="card-deck d-flex flex-column justify-content-center"
+                  style="position: relative; top: 80px; gap: 20px"
+                >
+                  <div class="card">
+                    <div
+                      class="card-body"
+                      style="background-color: rgb(19, 216, 216)"
+                    >
+                      <span class="card-title"
+                        >This is a Plain Notification</span
+                      >
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div
+                      class="card-body"
+                      style="background-color: rgb(19, 216, 216)"
+                    >
+                    <span class="card-title">
+                      <i class="fas fa-bell"></i> <!-- Bell icon -->
+                      This is a notification with close button and icon
+                    </span>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div
+                      class="card-body"
+                      style="background-color: rgb(19, 216, 216)"
+                    >
+                      <span class="card-title"
+                        >This is a notification with close button and icon</span
+                      >
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div
+                      class="card-body"
+                      style="background-color: rgb(19, 216, 216)"
+                    >
+                      <span class="card-title"
+                        >Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Id ad ducimus rerum voluptatibus, a rem quam
+                        numquam laborum consequuntur sed necessitatibus illo
+                        debitis mollitia. Iste quo minima asperiores perferendis
+                        rem.</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div></mat-grid-tile
+            >
+            <mat-grid-tile rowspan="3">
+              <!-- Second Grid Tile -->
+              <h2 style="position: absolute;top: -6px;left: 50px;font-family: sans-serif;">Notification States</h2>
+              <div style="height: 110%; width: 90%">
+                <!-- Bootstrap Card Grid -->
+                <div
+                  class="card-deck d-flex flex-column justify-content-center"
+                  style="position: relative; top: 80px; gap: 10px"
+                >
+                  <div class="card">
+                    <div
+                      class="card-body"
+                      style="background-color: rgb(19, 216, 216)"
+                    >
+                      <span class="card-title"
+                        >INFO- This is a regular notification made with
+                        ".alert-info"</span
+                      >
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div
+                      class="card-body"
+                      style="background-color: rgb(14, 233, 14)"
+                    >
+                      <span class="card-title"
+                        >SUCCESS - This is a regular notification made with
+                        "alert-success"</span
+                      >
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div
+                      class="card-body"
+                      style="background-color: rgb(250, 214, 36)"
+                    >
+                      <span class="card-title"
+                        >WARNING - This is a regular notification made with
+                        "alert-warning</span
+                      >
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body" style="background-color: red">
+                      <span class="card-title"
+                        >DANGER - This is a regular notification made with
+                        "alert-danger"</span
+                      >
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-body" style="background-color: purple">
+                      <span class="card-title"
+                        >PRIMARY - This is a regular notification made with
+                        "alert-primary"</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </mat-grid-tile>
+          </div>
+        </mat-grid-list>
+      </div>
+    </div>
+  </body>
+</html>

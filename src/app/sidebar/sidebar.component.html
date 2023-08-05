@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="overflow: hidden;">
+    <div class="" style="width: 100%; height: 100%;position: relative;top: 0;">
+      <mat-grid-list cols="6" rowHeight="100%" style="width: 100%">
+        <!-- Sidebar -->
+        <mat-grid-tile
+          colspan="6"
+          style="border: 1px solid gainsboro; height: 100%; width: 100%"
+        >
+          <div
+            class="sidebar"
+            style="background-color: white; width: 100%; height: 100%"
+          >
+            <mat-list class="" style="width: 100%">
+              <!-- <a mat-list-item routerLink="autocomplete" class="item-li"
+              >Dashbord</a
+            > -->
+              <a class="navbar-brand" href="#">
+                <img
+                  src="../../assets/logo1.png"
+                  width="200px"
+                  height="40px"
+                  alt="Your Logo"
+                  class="img-m"
+                  style="padding-top: 10px;padding-bottom: 5px; padding-left: 10px;border-bottom: 1px solid rgb(70, 69, 69);position: relative;left: 15px;margin-bottom: 10px; "
+                />
+              </a>
+
+              <mat-nav-list>
+                <a mat-list-item routerLink="" class="item-li"  style="display: flex; text-align: center;">
+                  <mat-icon class="mat-co">dashboard</mat-icon>
+                  <span class="nav-text">Dashboard</span>
+                </a>
+                <a mat-list-item routerLink="bottom-sheet" class="item-li"style="display: flex; text-align: center;">
+                  <mat-icon class="mat-co">person</mat-icon>
+                  <span class="nav-text">User Profile</span>
+                </a>
+                <a mat-list-item routerLink="table-list" class="item-li"style="display: flex; text-align: center;">
+                  <mat-icon class="mat-co">table_chart</mat-icon>
+                  <span class="nav-text">Table List</span>
+                </a>
+                <a mat-list-item  class="item-li"style="display: flex; text-align: center;">
+                  <mat-icon class="mat-co">text_format</mat-icon>
+                  <span class="nav-text">Typography</span>
+                </a>
+                <a mat-list-item  class="item-li"style="display: flex; text-align: center;">
+                  <mat-icon class="mat-co">emoji_objects</mat-icon>
+                  <span class="nav-text">Icon</span>
+                </a>
+                <a mat-list-item  class="item-li"style="display: flex; text-align: center;">
+                  <mat-icon class="mat-co">map</mat-icon>
+                  <span class="nav-text">Map</span>
+                </a>
+                <a mat-list-item routerLink="notification" class="item-li"style="display: flex; text-align: center;">
+                  <mat-icon class="mat-co">notifications</mat-icon>
+                  <span class="nav-text">Notification</span>
+                </a>
+              </mat-nav-list>
+              
+              <!-- Add more items as needed -->
+            </mat-list>
+          </div>
+        </mat-grid-tile>
+      </mat-grid-list>
+    </div>
+  </body>
+</html>

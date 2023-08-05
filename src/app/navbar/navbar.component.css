@@ -1,0 +1,78 @@
+/* Remove the navbar-spacer class */
+.mat-main-button {
+    position: relative;
+    left: 5px;
+    /* bottom: 2px; */
+    font-weight: 500;
+    color: white;
+    top: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    
+    
+    
+}
+/* .mat-main-main:hover{
+    background-color:darkblue ;
+} */
+.mat-icon-main{
+
+    
+   
+}
+#navmain{
+    margin-bottom: 8px;
+    padding: 5px;
+    padding-top: 2px;
+
+    box-shadow: 0 0 15px 0px black;
+    background-color:rgb(228, 226, 226);
+    display: flex;
+    align-items: center;
+   
+}
+
+.mat-icon-main {
+    background-color: transparent !important;
+    border: none !important;
+    outline: none;
+    cursor: pointer;
+}
+
+.mat-icon-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Add margin-left to the mat-icon-button */
+.mat-icon-button:last-child {
+    margin-left: auto;
+}
+.mat-flat-button{
+    background: transparent;
+    border: none;
+    margin-left: 20px;
+    color: white;
+    font-style: inherit;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.mat-flat-button:hover{
+    padding: 10px;
+    background-color: rgb(5, 11, 28);
+    border-radius: 5px;
+}
+/* .git-cc{
+    margin-left: 3px;
+    font-weight: 550;
+} */
+
+/* Remove the flex: 1 from navbar-spacer */
+/* .navbar-spacer {
+    flex: 1;
+} */
+
+#navbarNav{
+    width: fit-content !important;
+}

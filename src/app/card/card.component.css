@@ -1,0 +1,19 @@
+.container {
+    width: 100%;
+    height: 80vh;
+}
+
+.card-body{
+    border-radius: 10px;
+}
+
+.card-title{
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.fas {
+    margin-right: 0.5rem; /* Add spacing between icon and text */
+    font-size: 1.5rem; /* Adjust the icon size */
+    color: #FF5733; /* Change the icon color */
+  }
+
